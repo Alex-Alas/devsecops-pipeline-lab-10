@@ -1,4 +1,4 @@
-# devsecops-pipeline-lab
+# devsecops-pipeline-lab-8
 
-Laboratorio 3 · Automatización del Despliegue Continuo mediante IaC
+Laboratorio 8 · Pipeline DevSecOps de CI/CD (continuación de devsecops-pipeline-lab)
 Nube II — ESEN, Ciclo III 2026
