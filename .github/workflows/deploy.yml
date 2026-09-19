@@ -109,9 +109,9 @@ jobs:
           aws-region: us-east-1
       - uses: hashicorp/setup-terraform@v3
       - run: terraform init
-        working-directory: ./infra
-      - run: terraform apply -auto-approve -var="bucket_name=${{ secrets.BUCKET_NAME }}"
-        working-directory: ./infra
+        working-directory: ./environments/dev
+      - run: terraform apply -auto-approve
+        working-directory: ./environments/dev
 
   terraform-destroy:
     name: Destruir Infraestructura (Limpieza manual)
@@ -126,6 +126,6 @@ jobs:
           aws-region: us-east-1
       - uses: hashicorp/setup-terraform@v3
       - run: terraform init
-        working-directory: ./infra
-      - run: terraform destroy -auto-approve -var="bucket_name=${{ secrets.BUCKET_NAME }}"
-        working-directory: ./infra
+        working-directory: ./environments/dev
+      - run: terraform destroy -auto-approve
+        working-directory: ./environments/dev
