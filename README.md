@@ -1,4 +1,4 @@
-# devsecops-pipeline-lab-8
+# devsecops-pipeline-lab-9
 
-Laboratorio 8 · Pipeline DevSecOps de CI/CD (continuación de devsecops-pipeline-lab)
+Laboratorio 9 · Pipeline DevSecOps de CI/CD (continuación de devsecops-pipeline-lab-8)
 Nube II — ESEN, Ciclo III 2026
